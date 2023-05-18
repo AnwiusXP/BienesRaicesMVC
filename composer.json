@@ -1,0 +1,22 @@
+{
+  "name": "tomas/bienesraices_inicio",
+  "description": "creando un proyecto con poo",
+  "type": "project",
+  "authors": [
+    {
+      "name": "tomas basto",
+      "email": "tomas.basto10@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Model\\": "./models",
+      "MVC\\": "./",
+      "Controllers\\": "./controllers"
+    }
+  },
+  "require": {
+    "intervention/image": "^2.7",
+    "phpmailer/phpmailer": "^6.6"
+  }
+}
